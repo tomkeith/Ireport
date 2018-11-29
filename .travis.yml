@@ -3,12 +3,12 @@ language: python
 python:
   -"3.6"
 
-  install:
+install:
     -pip install -r requirements.txt
     
 
 
-scripts:
+script:
   -pytests --with-coverage -cover-package=app app/tests
 
 after_success:
