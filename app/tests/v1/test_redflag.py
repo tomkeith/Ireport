@@ -29,7 +29,7 @@ class TestRedFlags(unittest.TestCase):
 
 	def test_redflag_patch(self):
 		self.data2 = {
-			  "createdBy" : "mwaka",
+			  "createdBy" : "mwaka", 
 			  "location" : "45E, 29N",
 			  "status" : "draft", 
 			  "Images" : "image", 
